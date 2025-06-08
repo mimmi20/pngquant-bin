@@ -22,6 +22,9 @@ jobs:
         run: sudo apt-get install libimagequant-dev
       - if: contains(matrix.os, 'macos')
         run: brew install libimagequant
+      - name: "install libpng-dev"
+        if: contains(matrix.os, 'ubuntu')
+        run: "sudo apt-get install libpng-dev -y"
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
