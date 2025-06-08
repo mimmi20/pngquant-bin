@@ -5,8 +5,8 @@ import {fileURLToPath} from 'node:url';
 import test from 'ava';
 import {execa} from 'execa';
 import {temporaryDirectory} from 'tempy';
-import binCheck from 'bin-check';
-import binBuild from 'bin-build';
+import binCheck from '@lesjoursfr/bin-check';
+import binBuild from '@localnerve/bin-build';
 import compareSize from 'compare-size';
 import pngquant from './index.js';
 

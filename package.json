@@ -32,15 +32,15 @@
 		"pngquant"
 	],
 	"dependencies": {
-		"bin-build": "^3.0.0",
-		"bin-wrapper": "^4.0.1",
-		"execa": "^8.0.1"
+		"@localnerve/bin-build": "^7.7.0",
+		"@xhmikosr/bin-wrapper": "^13.0.5",
+		"execa": "^9.6.0"
 	},
 	"devDependencies": {
 		"ava": "^6.1.2",
-		"bin-check": "^4.0.1",
+		"@lesjoursfr/bin-check": "^7.1.9",
 		"compare-size": "^3.0.0",
 		"tempy": "^3.0.0",
-		"xo": "^0.58.0"
+		"xo": "^1.1.0"
 	}
 }
