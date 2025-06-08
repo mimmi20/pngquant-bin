@@ -37,7 +37,7 @@
 		"execa": "^9.6.0"
 	},
 	"devDependencies": {
-		"ava": "^6.1.2",
+		"ava": "^6.4.0",
 		"@lesjoursfr/bin-check": "^7.1.9",
 		"compare-size": "^3.0.0",
 		"tempy": "^3.0.0",
